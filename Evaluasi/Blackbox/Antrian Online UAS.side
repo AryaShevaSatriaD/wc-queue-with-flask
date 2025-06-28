@@ -1,0 +1,121 @@
+{
+  "id": "2a6f0142-325a-4ee1-9759-f665eb3598fe",
+  "version": "2.0",
+  "name": "Antrian Online UAS",
+  "url": "https://ominous-umbrella-97q64754r7w6c77vw-5000.app.github.dev",
+  "tests": [{
+    "id": "5cbc4e2c-2850-42ca-acc1-a5fb87c74580",
+    "name": "Tes Web",
+    "commands": [{
+      "id": "af20bd9c-9bf4-4a28-9368-f3c141748151",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad41312f-dcc3-4f90-aa2e-477c68e6d695",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d847ba51-b923-4eb1-86c4-e9d7f8177637",
+      "comment": "",
+      "command": "click",
+      "target": "id=link",
+      "targets": [
+        ["id=link", "id"],
+        ["linkText=Try Now", "linkText"],
+        ["css=#link", "css:finder"],
+        ["xpath=//a[contains(text(),'Try Now')]", "xpath:link"],
+        ["xpath=//a[@id='link']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, 'https://ominous-umbrella-97q64754r7w6c77vw-5000.app.github.dev/reg')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32a13c8e-d5d7-4659-9b58-29b93f6bf25c",
+      "comment": "",
+      "command": "click",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76914095-6ef4-4f7e-8642-e21b755e9b38",
+      "comment": "",
+      "command": "type",
+      "target": "id=fname",
+      "targets": [
+        ["id=fname", "id"],
+        ["css=#fname", "css:finder"],
+        ["xpath=//input[@id='fname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "michael"
+    }, {
+      "id": "6c7f7663-0f32-4261-9fd4-03e801143956",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-wrapper:nth-child(2)",
+      "targets": [
+        ["css=.input-wrapper:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a69b522-1f37-41c4-a5c0-708a612131c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=lname",
+      "targets": [
+        ["id=lname", "id"],
+        ["css=#lname", "css:finder"],
+        ["xpath=//input[@id='lname']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5d40c01-a213-4822-a272-478113267a9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=lname",
+      "targets": [
+        ["id=lname", "id"],
+        ["css=#lname", "css:finder"],
+        ["xpath=//input[@id='lname']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "jackson"
+    }, {
+      "id": "ff821efd-3ede-45d5-841e-6020d25e88e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.okbtn",
+      "targets": [
+        ["css=.okbtn", "css:finder"],
+        ["xpath=//button[@onclick='ok()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bdda09a9-0724-4d6f-9eb4-6dc7fe6f6280",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5cbc4e2c-2850-42ca-acc1-a5fb87c74580"]
+  }],
+  "urls": ["https://ominous-umbrella-97q64754r7w6c77vw-5000.app.github.dev/"],
+  "plugins": []
+}
